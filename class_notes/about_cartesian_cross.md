@@ -25,5 +25,5 @@ when crossing multiple sets, this is the formula:
 
 ```
 Let A and B be sets
-A x B = {(a,b) | a &#8712; A, b &#8712; B}
+A x B = {(a,b) | a \&#8712; A, b \&#8712; B}
 ```
