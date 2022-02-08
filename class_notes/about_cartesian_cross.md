@@ -17,15 +17,18 @@ There are many other places where they exist, like graph theory, sql and so many
 
 when crossing multiple sets, this is the formula:
 
-&#8712;
-
-:elem:  :in: :element: :epsilon:
-\in\
-\element\
-
-```
-Let A and B be sets
-A x B = {(a,b) | a \&#8712; A, b \&#8712; B}
+<!-- &#8712;
 &ElementOf; &Epsilon; &epsilon;
-&Theta;
+&Theta; -->
+
 ```
+Let A and B and C be sets
+A x B = {(a,b) | a ∈ A, b ∈ B}
+
+A x B x C = {(a,b,c) | a ∈ A, b ∈ B, c ∈ C}
+
+```
+
+What this means is that when crossing multiple sets, they assume the form of a single parenthesis tuple **(a,b,c)** and not something like **((a,b),c)**.
+
+You should note that technically, **((a,b),c)** is in fact correct and in some use cases is the correct answer. In a sense, **((a,b),c)** is more technically correct, however for this class, please use the single parenthesis tuple **(a,b,c)** notation.
