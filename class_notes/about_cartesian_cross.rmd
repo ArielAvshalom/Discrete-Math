@@ -15,4 +15,13 @@ There are many other places where they exist, like graph theory, sql and so many
 
 ## Clarifying a point from class
 
-To 
+when crossing multiple sets, this is the formula:
+
+:elem:  :in: :element: :epsilon:
+\in\
+\element\
+
+```
+Let A and B be sets
+A x B = {(a,b) | a in}
+```
