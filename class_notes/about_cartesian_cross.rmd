@@ -1,0 +1,18 @@
+# Cartesian Crosses
+
+## Example Applications
+
+They are useful in many aspects of programming, especially in conditional logic.
+
+```python
+
+for element_a in array_a:
+    for element_b in array_b:
+        print((element_a, element_b))
+```
+
+There are many other places where they exist, like graph theory, sql and so many other places!
+
+## Clarifying a point from class
+
+To 
