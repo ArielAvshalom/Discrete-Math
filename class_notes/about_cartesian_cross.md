@@ -17,7 +17,7 @@ There are many other places where they exist, like graph theory, sql and so many
 
 when crossing multiple sets, this is the formula:
 
-\(\epsilon\)
+&#8712;
 
 :elem:  :in: :element: :epsilon:
 \in\
