@@ -17,9 +17,11 @@ def give_input():
     return [P, Q, R]
 
 
+
 def tester(list_of_bools):
     
     print("P^Q^R")
+    print(f"{list_of_bools[0]}^{list_of_bools[1]}^{list_of_bools[2]}")
     
     if list_of_bools[0] and list_of_bools[1] and list_of_bools[2]:
         print('Yaaaas')
@@ -41,6 +43,8 @@ def implication_tester_RandQ_implies_P(list_of_bools):
             print("Implication true because both sides are False! This is Vacuously True")
         else:
             print("Vaculously True! This is because the antecedant is false, and the Consequent is true.")
+            
+    
         
 if __name__ == "__main__":
     bool_list = give_input()
