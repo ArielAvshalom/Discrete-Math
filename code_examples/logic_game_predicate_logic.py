@@ -38,9 +38,9 @@ def implication_tester_RandQ_implies_P(list_of_bools):
             print("True! Both Q^R are true and so is => P")
     else:
         if not list_of_bools[0]:
-            print("Implication true because both sides are False! This is technically also vacuously true")
+            print("Implication true because both sides are False! This is Vacuously True")
         else:
-            print("Vaculously True!")
+            print("Vaculously True! This is because the antecedant is false, and the Consequent is true.")
         
 if __name__ == "__main__":
     bool_list = give_input()
