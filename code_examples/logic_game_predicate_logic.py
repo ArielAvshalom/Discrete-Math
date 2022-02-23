@@ -19,12 +19,17 @@ def give_input():
 
 def tester(list_of_bools):
     
+    print("P^Q^R")
+    
     if list_of_bools[0] and list_of_bools[1] and list_of_bools[2]:
         print('Yaaaas')
     else:
         print('boo hoo')
         
 def implication_tester_RandQ_implies_P(list_of_bools):
+    
+    print("R^Q => P")
+    print(f"{list_of_bools[2]}^{list_of_bools[1]}=>{list_of_bools[0]}")
     
     if list_of_bools[1] and list_of_bools[2]:
         if not list_of_bools[0]:
