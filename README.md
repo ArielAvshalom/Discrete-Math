@@ -10,4 +10,7 @@
 |3          |Logic 1        |Logic 1 pptx           |
 |4          |Logic 2        |Logic 2 pptx           |
 |4          |Logic 3        |Logic 3 pptx           |
-
+|5          |Proofs 1       ||
+|5          |proofs 1 cont  |quiz 2|
+|6          |proofs 2       ||
+|6          |proofs 3       ||
